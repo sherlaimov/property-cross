@@ -16,7 +16,7 @@ import {FavDirective} from '../app/components/fav/fav.directive';
 import { NestoriaAPI } from '../app/components/nestoriaAPI/nestoria.service';
 import { GeolocationService } from '../app/components/geolocation/geolocation.service';
 
-angular.module('propertycross', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ngMaterial', 'toastr'])
+angular.module('propertycross', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ngMaterial', 'toastr', 'ngMdIcons'])
     .constant('malarkey', malarkey)
     .constant('moment', moment)
     .config(config)
