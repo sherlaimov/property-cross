@@ -5,5 +5,8 @@ export class HousesController {
     if (!this.list){
       $state.go('home');
     }
+    this.test = function test(){
+      console.log('Huyest');
+    }
   }
 }

@@ -21,7 +21,7 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
   })
   .state('favourites', {
       url: '/favourites',
-      templateUrl: 'app/favourites/',
+      templateUrl: 'app/favourites/favourites.html',
       controller: 'FavouritesController',
       controllerAs: 'favs'
     });

@@ -13,5 +13,5 @@ export function HouseDirective() {
 }
 
 class HouseController {
-
+  //var vm = this;
 }

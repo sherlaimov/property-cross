@@ -43,14 +43,17 @@ export class MainController {
             }
         });
     };
+    this.test = function test(){
+      console.log('BLYAT');
+    };
   }
-  searchLocation() {
-    this._geo.getCoords()
-      .then(res => {
-          this._$log.debug(res);
-          // NestoriaAPI.getByLocation
-        });
-  }
+  //searchLocation() {
+  //  this._geo.getCoords()
+  //    .then(res => {
+  //        this._$log.debug(res);
+  //        // NestoriaAPI.getByLocation
+  //      });
+  //}
   clear() {
     this.errorMessage = '';
     this.locations = [];
